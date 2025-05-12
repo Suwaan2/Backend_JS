@@ -1,0 +1,19 @@
+{
+  "name": "fullstack_youtube",
+  "version": "1.0.0",
+  "description": "a backend of youtube like application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "Suan KC",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
