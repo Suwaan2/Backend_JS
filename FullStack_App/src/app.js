@@ -8,7 +8,7 @@ const app = express()
 app.use(cors({
     origin: process.env.CORS_ORIGIN,
     credentials: true
-}))
+}))//middleware configuration
 
 app.use(express.json({limit: "16kb"}))//Setting the limits for the json files
 
