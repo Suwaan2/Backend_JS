@@ -1,5 +1,5 @@
 const asyncHandler = (requestHandler) =>{
-    (req, res, next) =>{
+    return (req, res, next) =>{
         Promise.resolve(requestHandler(req,res,next)).//Resolve huda requestHandler execute hanxa
         catch((err)=> next(err))//Reject bho bhani next error execute hanxa
         
